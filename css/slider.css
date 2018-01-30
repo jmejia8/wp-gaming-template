@@ -113,7 +113,29 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media  screen and (max-width: 400px) {
+  .prev, .next,.text {display: none;}
 }
 
+@media screen and (max-width: 800px) {
+
+  .mySlides .image,
+  .slideshow-container .text{
+    display: block;
+    float: none;
+    width: 100%;
+    position: relative;
+    height: 200px;
+  }
+
+  .mySlides .image{
+    height: auto;
+  }
+
+  .slideshow-container .text{
+    z-index: 0;
+    overflow: scroll;
+    font-size: 11pt;
+  }
+
+}

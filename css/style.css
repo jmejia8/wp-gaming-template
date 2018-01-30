@@ -117,6 +117,22 @@ nav.menu{
 	float: right;
 }
 
+/*btn-menu*/
+#btn-menu{
+	float: right;
+	display: none;
+}
+
+#btn-menu i{
+	color: #FFFFFF !important;
+	font-size: 16pt;
+	padding: 17px;
+}
+#btn-menu a{
+	width: 32px;
+	height: 32px;
+}
+
 /*
 	menu
 */
@@ -322,6 +338,10 @@ footer .container a
       width: 90%;
     }
 
+    #menu-menu-principal {
+		display: block;
+	}
+
 }
 
 @media screen and (max-width: 800px) {
@@ -375,9 +395,38 @@ footer .container a
 
 	}
 
+	#menu-menu-principal {
+		display: block;
+	}
+
+
 
 
 }
+
+@media screen and (max-width: 600px) {
+	#menu-menu-principal {
+		margin-top: 10px;
+		display: none;
+	}
+
+	#menu-menu-principal li{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.logo{
+		text-align: left;
+		margin-bottom: 10px;
+    }
+
+    #btn-menu{
+    	display: block;
+	}
+
+}
+
 
 
 /*
@@ -747,3 +796,4 @@ div.avatar{
 	width: 20%;
 	margin: auto;
 }
+

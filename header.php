@@ -22,6 +22,12 @@
 	<div class="menu-container">
 		<div class="logo">
 			<img src="<?php bloginfo('template_url');?>/img/logo.png" alt="Candaana Gaming">
+
+			<div id="btn-menu">
+				<a href="#" title="Menu" onclick="displayMenu()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 		</div>
 		
 		<?php

@@ -30,3 +30,13 @@ function initSlides(){
     showSlides(slideIndex);
   }, 5000)
 }
+
+function displayMenu() {
+  var menu = document.getElementById('menu-menu-principal');
+
+  if (menu.style.display == 'block') {
+    menu.style.display = 'none'
+  }else{
+    menu.style.display = 'block'
+  }
+}
