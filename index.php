@@ -89,7 +89,7 @@
 	</div>
 
 	<div class="content">
-		<h1><span class="red">Juegos</span> Nuevos</h1>
+		<h1><span class="red">Lo más</span> Nuevo</h1>
 
 
 		<div class="news-container">
