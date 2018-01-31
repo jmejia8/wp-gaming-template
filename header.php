@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="utf-8">
-	<title><?php wp_title(); ?>Candaana</title>
+	<title><?php wp_title(); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -21,7 +21,10 @@
 <header class="main">
 	<div class="menu-container">
 		<div class="logo">
-			<img src="<?php bloginfo('template_url');?>/img/logo.png" alt="Candaana Gaming">
+			<a href="<?php echo get_site_url(); ?>">
+				<img src="<?php bloginfo('template_url');?>/img/logo.png" alt="Candaana Gaming">
+				
+			</a>
 
 			<div id="btn-menu">
 				<a href="#" title="Menu" onclick="displayMenu()">
