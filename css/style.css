@@ -720,12 +720,14 @@ div.author-info a{
 	font-size: 18pt;
 	font-weight: bold;
 }
-div.author-info a,
+div.author-info a{
+	color: #9A3535 !important;
+}
 div.author-info article{
-	color: #343434 !important;
+	color: #181818 !important;
 }
 div.author-info{
-	background: rgba(0,0,0,0.7);
+	background: #E7E7E7;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
