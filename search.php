@@ -6,7 +6,7 @@ get_header();
 ?>
 
 <center>
-	<h1><span class="red">Gamer</span> Search</h1>
+	<h1><span class="red">Professional</span> Search</h1>
 </center>
 
 
