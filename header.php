@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="utf-8">
+	<meta name="google-site-verification" content="XokG2wB1sMEauZvRMYVudFLIPEH3z6t5ms2zJd8iL0I" />
 	<title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
