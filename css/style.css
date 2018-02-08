@@ -459,17 +459,21 @@ aside.single-aside{
 
 .single-content h2{
 	margin-top: 30px;
-	font-size: 14pt;
+	font-size: 18pt;
 }
 
 .single-content h3{
 	margin-top: 30px;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 .single-content h4{
 	margin-top: 30px;
-	font-size: 8pt;
+	font-size: 10pt;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 10px;
+	
 }
 
 .single-content p{
