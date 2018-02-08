@@ -25,7 +25,9 @@ ul.list {
 	margin: 10px 0;
 }
 
-ul.list li{
+ul.list li,
+.single-content li
+{
 	list-style-type: circle;
 	margin-left: 50px;
 }
@@ -470,6 +472,16 @@ aside.single-aside{
 	font-size: 16pt;
 }
 
+.single-content p{
+	margin-top: 15px;
+}
+
+.aligncenter{
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 /*didebar and widgets*/
 
 .widget{
@@ -741,6 +753,7 @@ div.avatar{
 	width: 20%;
 	margin: auto;
 }
+
 
 
 /*
