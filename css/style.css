@@ -468,11 +468,14 @@ aside.single-aside{
 }
 
 .single-content h4{
+	padding: 0;
+	margin-left: 10px;
 	margin-top: 30px;
 	font-size: 10pt;
 	font-weight: bold;
 	display: inline-block;
 	margin-right: 10px;
+	border-bottom: 3px solid #A0A0A0;
 	
 }
 
