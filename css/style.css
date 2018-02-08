@@ -12,10 +12,8 @@
 body{
 	color: #343434;
 	font-family: sans-serif;
-/*	background-color: #440005;
-	background: url('../img/background.jpg') no-repeat fixed;*/
-	background-position: center;
-	background-size: auto 100%;
+	background-color: #BCBCBC;
+	background: url('../img/bg.png') fixed;
 }
 
 p, div{
